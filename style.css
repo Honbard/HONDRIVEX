@@ -1,0 +1,109 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #080808;
+}
+
+.calculator-container {
+  display: flex;
+}
+
+.calculator {
+  background-color: #171616;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(7, 137, 237);
+  text-align: center;
+}
+
+.history-container {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #171616;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(212, 131, 0);
+  text-align: left;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  color: white;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+#total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#elapsedTime {
+  font-size: 16px;
+}
+
+button {
+  background-color: #e3a30e;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#stopBtn {
+  background-color: #e74c3c;
+}
+
+#endTripBtn {
+  background-color: #073aa8;
+}
+
+#stopBtn:hover {
+  background-color: #c0392b;
+}
+
+#copyBtn {
+  background-color: #e3a30e;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#copyBtn:hover {
+  background-color: #3498db;
+}
+
+p {
+  color: white;
+}
+#calculatorType {
+  background-color: #2c2c2c; 
+  color: white; 
+  padding: 8px; 
+  border-radius: 5px;
+  border: 1px solid #444;
+}
+label {
+  color: white;
+}

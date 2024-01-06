@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Ardan</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxi Fare Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="calculator">
+      <h1>Hondrive Suport Fee</h1>
+      <label for="calculatorType">Calculator Type:</label>
+      <select id="calculatorType" name="calculatorType">
+        <option value="standard">Standard</option>
+        <option value="upperMiddle">Upper Middle</option>
+        <option value="executive">Eksekutif</option>
+      </select>
+      <div class="result">
+        <p>Total Fare: Rp. <span id="total">0.00</span></p>
+        <p>Elapsed Time: <span id="elapsedTime">0:00</span></p>
+        <p id="calculatorTypeText"></p>
+      </div>
+      <button id="startBtn">Start</button>
+      <button id="stopBtn">Stop</button>
+      <button id="endTripBtn">End Trip</button>
+    </div>
+
+    <div class="history-container">
+      <div class="history" id="history"></div>
+      <button id="copyBtn">Copy History</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
